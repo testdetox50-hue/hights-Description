@@ -1,15 +1,4 @@
-"""Tests for the Python scripts in src/scripts.
 
-Run with:
-    python -m unittest discover -s tests -p "test_*.py"
-"""
-
-import importlib.util
-import json
-import sys
-import tempfile
-import unittest
-from pathlib import Path
 
 SCRIPTS_DIR = Path(__file__).resolve().parents[1] / "src" / "scripts"
 
